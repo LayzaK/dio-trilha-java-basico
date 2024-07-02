@@ -1,6 +1,12 @@
 public class TiposVariaveis {
     
     public static void main (String[]args) throws Exception{
+
+        //Tipos de variáveis primitivas(int,byte,short,long,float,double,boolean,char)
+        //Constante - final 
+
+        String meuNome = "LAYZA KERMILYN";
+        
         double salarioMinimo = 3600;
 
         short numeroCurto = 1;
