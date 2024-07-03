@@ -15,5 +15,13 @@ public class TiposVariaveis {
 
         final double VALOR_DE_PI = 3.14;
 
+        var login = ("ola");
+        login = ("Mundo");
+        
+        System.out.println(login);
+
+        int chiquinha = 10;
+        System.out.println(chiquinha + 40);
+
     }
 }
