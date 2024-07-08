@@ -22,14 +22,28 @@ public class Operadores {
         a = 5;
         b = 10;
 
-        String resultado = a == b ?"verdadeiro" : "falso";
+        String resultado = a == b ? "verdadeiro" : "falso";
         System.out.println(resultado);
         
 
+        int numeroUm = 1;
+        int numeroDois = 2;
 
+        System.out.println(numeroUm == numeroDois);
 
+        boolean condicao1 = true;
+        boolean condicao2 = false;
 
+        if(condicao1 && (8 < 12));{
+            System.out.println("As duas condições são verdadeiras");
+        }
+            
 
+        if(condicao1 || condicao2);{
+            System.out.println("Uma das condições é verdadeira");
+
+        }
+           
 
 
     }
